@@ -12,6 +12,11 @@ confident enough with most of the code, I started running it on the board as wel
 # Code, issues met during the project
 
 The sintax of the code is in C, I used methods such as void check_button_pressed(), void draw_X_O(int pozitie), int check_Win(), void draw_Grid(), void delay2S(), and also the GLCD_line/circle methods from the GLCD library to implement the application. 
-The first issue I met (which I wasn't aware of before starting the project) was the compilation limitation I met in mikroC PRO for AVR of 4KB. Basically, you cannot compile more than that specific amount of memory (saddest limitation of an application I used to program in). Hence, limitation => optimization. A lot of optimization. This also meant that I couldn't implement everything I wanted.
+The first issue I met (which I wasn't aware of before starting the project) was the compilation limitation I met in mikroC PRO for AVR of 4KB. Basically, you cannot compile more than that specific amount of memory (saddest limitation of an application I used to program in). Hence, limitation => optimization. A lot of optimization. This also meant that I couldn't implement everything I wanted (you can see the commented lines of code which could have made the game a nicer UI on the LCD). 
+Another issue I met was with the reading of the input from the boards buttons. The input wasn't read cleanly when the user was pressing the button since the app was running in the loop too fast => I solved this by implementing delays.
+
+# Result
+
+....
 
 
