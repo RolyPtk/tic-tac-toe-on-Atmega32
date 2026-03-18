@@ -20,3 +20,9 @@ Another issue I met was with the reading of the input from the boards buttons. T
 ....
 
 
+
+# Proteus circuit implementation
+
+<img width="1042" height="782" alt="Proteus circuit sample" src="https://github.com/user-attachments/assets/cc7ac66e-8e0c-4b82-9ccc-1735992e12e0" />
+
+
